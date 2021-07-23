@@ -1,0 +1,98 @@
+@font-face{
+	font-family:'font';
+	src:url(Roboto-Regular.ttf);
+}
+body{
+	margin:0;
+	background-image:url(pattern.jpg);
+}
+
+header{
+	background-image:url(header.png);
+	background-size:100%;
+	height:400px;
+}
+main{
+	padding:50px 280px;
+}
+main{ 
+    padding;50px 280px;
+}
+
+.block{
+	display: flex;
+	margin-bottom:50px
+}
+
+.block > img{
+	margin-right: 20px;
+	height:600px;
+}
+p{
+	font-size:32px;
+	font-family:'font';
+}
+a{
+		font-family:'font';
+}
+.btn{
+	text-decoration:none;
+	color:white;
+	background-color:#301010;
+	border-radius:50px;
+	padding:10px 30px;
+	font-size:32px;
+}
+#menu{
+	left:300px;
+	top:300px;
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+}
+#menu ul{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#menu ul li{
+	position:relative;
+	display:block;
+	width:auto;
+	height:auto;
+	float:left;
+}
+#menu ul li a{
+	text-decoration:none;
+	display:block;
+	padding:8px 100px 0 160px;
+	font-size:30px;
+	line-height:68px;
+	font-weight:bold;
+	text-transform:uppercase;
+	height:68px;
+	
+	box-sizing:border-box;
+}
+
+
+#menu > ul::after{
+	display:block;
+	content:' ';
+	width:100%;
+	height:0;
+	clear:both;
+}
+
+.karusell{
+	width:100%;
+}
+.karusell div img{
+	width:100%;
+}
